@@ -70,5 +70,7 @@ class PluginFormcreatorUpgradeTo2_14 {
             ]);
          }
       }
+
+      $migration->addField('glpi_plugin_formcreator_forms', 'icon_type', 'boolean', ['default' => '1']);
    }
 }
